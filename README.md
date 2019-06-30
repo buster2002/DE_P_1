@@ -16,7 +16,7 @@ As I followed the star schema structure, I created two types of tables (Fact Tab
        - Columns: artist_id, name, location, latitude, longitude  
    d. Name: ***time*** (timestamps of records in songplays broken down into specific units)  
        - Columns: start_time, hour, day, week, month, year, weekday  
-![Image of data Diagram](image/DER.PNG)
+![Image of data Diagram](DER.PNG)
 
 ## Starting the program  
 1. Execute "create_tables.py". This will create a fresh instance of the sparkifydb with empty tables.  
@@ -32,5 +32,5 @@ As I followed the star schema structure, I created two types of tables (Fact Tab
 
 ## Example:  
 
-![Image of count number of artist and songs](image/ar_son.PNG)
-![Image of count number of songplay](image/songplays.PNG)
+![Image of count number of artist and songs](ar_son.PNG)
+![Image of count number of songplay](songplays.PNG)
